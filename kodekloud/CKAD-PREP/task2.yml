@@ -5,3 +5,5 @@ metadata:
 provisioner: kubernetes.io/no-provisioner
 volumeBindingMode: WaitForFirstConsumer
 allowVolumeExpansion: true 
+
+# https://kubernetes.io/docs/concepts/storage/storage-classes/#allow-volume-expansion
