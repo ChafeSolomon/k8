@@ -14,3 +14,4 @@ spec:
             image: node
             command: ["ps", "-eaf"]
           restartPolicy: OnFailure
+# https://kubernetes.io/docs/concepts/workloads/controllers/cron-jobs/
